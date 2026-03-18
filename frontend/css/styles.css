@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.calendar{
+    width: 100%;
+    max-width: 400%;
+}
+
+header{
+    display: felx;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.days, .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+  }
+  
+  .grid div {
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .today {
+    background-color: lightblue;
+    font-weight: bold;
+  }

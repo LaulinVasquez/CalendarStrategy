@@ -32,3 +32,8 @@ header{
     background-color: lightblue;
     font-weight: bold;
   }
+
+  .grid div:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }

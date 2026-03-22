@@ -3,7 +3,8 @@ body{
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: bisque;
+    background-color: rgb(20, 34, 71);
+    color: white;
 }
 
 .calendar{
@@ -34,6 +35,6 @@ header{
   }
 
   .grid div:hover {
-    background-color: #f0f0f0;
+    background-color: #3f3f3f;
     cursor: pointer;
   }

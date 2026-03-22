@@ -1,11 +1,11 @@
 # Calendar App Sprint Plan
 
-## Sprint 0
+## Sprint 0 ✅
 Project setup
 - GitHub repo
 - folder structure
 
-## Sprint 1
+## Sprint 1 ✅
 Basic calendar UI
 - render calendar
 - responsive layout

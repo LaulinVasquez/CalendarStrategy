@@ -19,5 +19,17 @@ document.getElementById("nextBtn").addEventListener("click", () => {
   updateCalendar();
 });
 
+// create event functions
+
+function getEvents(){
+  return JSON.parse(localStorage.getItem("events")) || [];
+}
+
+function saveEvent(date,title) {
+  const events = getEvents();
+  events.push({date, title});
+  localStorage.setItem("events", JSON.stringify(events));
+  
+}
 // Initial load
 updateCalendar();

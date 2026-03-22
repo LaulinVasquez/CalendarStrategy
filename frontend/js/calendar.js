@@ -20,7 +20,9 @@ function renderCalendar(month, year) {
     for (let day=1; day <= totalDays; day++){
         const cell = document.createElement("div");
         cell.textContent = day;
-       
+        cell.addEventListener("click", () => {
+            console.log(`clicked: ${day}/${month+1}/${year}`)
+        })
         if (isToday(day,month,year)) {
             cell.classList.add("today");
         }
